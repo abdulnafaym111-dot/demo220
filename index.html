@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d1c">
+  <title>NEXORA GAMES | Play Free Online Games</title>
+  <meta name="description" content="Discover and play exciting free online games at NEXORA GAMES.">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-mark">M<span>G</span></span><span class="brand-name">MALIK <b>GAMING ZONE</b><small>YOUR NEXT LEVEL STARTS HERE</small></span></a>
+    <nav><a class="nav-active" href="#home">Home</a><a href="#games">Games</a><a href="#categories">Categories</a></nav>
+    <a class="header-cta" href="#games">PLAY NOW <span>↗</span></a>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy"><div class="eyebrow"><span class="pulse"></span> THE ULTIMATE FREE GAMING HUB</div>
+        <h1>ENTER THE<br><span>GAME ZONE.</span></h1>
+        <p>Big games. Good vibes. Zero limits.<br>Choose your game and start playing instantly.</p>
+        <div class="hero-actions"><a class="primary-btn" href="#games">EXPLORE GAMES <span>→</span></a><a class="text-btn" href="#categories">Browse categories</a></div>
+        <div class="hero-stats"><div><strong>100+</strong><small>GAMES</small></div><i></i><div><strong>06</strong><small>CATEGORIES</small></div><i></i><div><strong>FREE</strong><small>TO PLAY</small></div></div>
+      </div>
+      <div class="hero-art"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="hero-glow"></div><div class="hero-console">🎮</div><span class="float-chip chip-one">⚡ LEVEL UP</span><span class="float-chip chip-two">★ PLAYER 1</span><span class="float-chip chip-three">100+ GAMES</span></div>
+    </section>
+    <section class="category-section" id="categories"><div class="section-heading"><div><span class="kicker">FIND YOUR PLAY STYLE</span><h2>CHOOSE A <em>CATEGORY</em></h2></div></div>
+      <div class="category-list">
+        <button class="category active" data-filter="All"><span>✦</span> All Games</button><button class="category" data-filter="Action"><span>⚔</span> Action</button><button class="category" data-filter="Racing"><span>🏁</span> Racing</button><button class="category" data-filter="Sports"><span>⚽</span> Sports</button><button class="category" data-filter="Adventure"><span>🧭</span> Adventure</button><button class="category" data-filter="Puzzle"><span>🧩</span> Puzzle</button><button class="category" data-filter="Arcade"><span>👾</span> Arcade</button>
+      </div>
+    </section>
+    <section class="games-section" id="games"><div class="games-heading"><div><span class="kicker">PICK YOUR NEXT CHALLENGE</span><h2>EXPLORE <em>GAMES</em></h2><p>Find your favorite and jump straight into the action.</p></div>
+      <label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Search games..." autocomplete="off"></label></div>
+      <div class="result-line"><span id="resultLabel">ALL GAMES</span><span id="gameCount">100 GAMES</span></div>
+      <div class="game-grid" id="gameGrid"></div><div class="empty" id="empty" hidden>No games found. Try another search.</div>
+    </section>
+  </main>
+  <footer><a class="brand footer-brand" href="#"><span class="brand-mark">M<span>G</span></span><span class="brand-name">MALIK <b>GAMING ZONE</b><small>PLAY MORE. HAVE FUN.</small></span></a><p>© 2026 NEXORA GAMES. All rights reserved.</p><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+  <script src="games.js"></script>
+</body></html>
